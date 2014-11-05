@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tarea 13 - Fragments primera parte. Aquí definimos el aspecto que tendrá el fragment inferior -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp" >
+
+    <!--
+    Esto seran el titulo y el edit text que apareceran en el form parte inferior
+    -->
+    <TextView
+        android:id="@+id/txtViewInf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewInf" />
+
+    <EditText
+        android:id="@+id/editTxtInf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+    </EditText>
+
+</LinearLayout>

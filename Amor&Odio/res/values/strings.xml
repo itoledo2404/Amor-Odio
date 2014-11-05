@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iconDescription">Icono del sistema operativo</string>
+    <!-- Tarea 15 - Creamos un array list en strings.xml para que podamos traducirlo -->
+    <string-array name="components">
+        <item>Codigo de Barras</item>
+        <item>Bateria</item>
+        <item>Cpu</item>
+        <item>Memoria</item>
+        <item>Pci</item>
+        <item>Procesador</item>
+    </string-array>
+    <string name="txtViewInf">Componete Asignado:</string>
+    <string name="app_name">Amor&amp;Odio</string>
+
+</resources>
